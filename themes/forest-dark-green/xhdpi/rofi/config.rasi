@@ -1,7 +1,7 @@
 configuration {
   font: "FiraCode Nerd Font 18";
-  show-icons:         true;
-  //icon-theme:         "Colloid-Green-Dark";
+  show-icons: true;
+  //icon-theme: "Colloid-Green-Dark";
 }
 
 //@theme "/home/YOUR-USERNAME/.config/rofi/themes/forest-dark-green.rasi"
