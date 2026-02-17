@@ -3,7 +3,7 @@ This repository contains a collection of themes for the Sway window manager, des
 
 ---
 
-## First Theme: forest-dark-green
+## Chameleon Grove Green
 
 - **Inspiration:** Colors based on the openSUSE color palette.  
 - **Description:** A dark, comfortable theme with green accents, ideal for long work sessions.  
@@ -17,8 +17,7 @@ This repository contains a collection of themes for the Sway window manager, des
  </br></br>
 </div>
 
-- Forest-dark-green theme with 4K support: https://github.com/cryinkfly/SwayWM-Themes/tree/main/themes/forest-dark-green/xhdpi
-- Forest-dark-green theme: ...
+- Chameleon Grove Green theme with 4K support: https://github.com/cryinkfly/SwayWM-Themes/tree/main/themes/chameleon-grove-green/xhdpi
 
 What you also need:
 
@@ -51,7 +50,7 @@ chmod +x $HOME/.config/waybar/scripts/network-speed.sh
 
 ## Flatpak App Scaling (HiDPI / 4K Support)
 
-When using the forest-dark-green theme on high-resolution displays (e.g. 4K), native Wayland applications usually scale correctly. However, Flatpak apps may require additional configuration to scale properly under Sway.
+When using a theme on high-resolution displays (e.g. 4K), native Wayland applications usually scale correctly. However, Flatpak apps may require additional configuration to scale properly under Sway.
 
 ### 🔧 Fix Flatpak Scaling Issues
 
