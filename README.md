@@ -20,6 +20,25 @@ This repository contains a collection of themes for the Sway window manager, des
 - Forest-dark-green theme with 4K support: https://github.com/cryinkfly/SwayWM-Themes/tree/main/themes/forest-dark-green/xhdpi
 - Forest-dark-green theme: ...
 
+---
+
+## Installation
+
+After downloading or cloning the repository, copy the theme folders to the correct locations.
+
+> [!WARNING]  
+> Make sure the target directories exist before copying the files.
+
+```
+mkdir -p $HOME/.config/{dunst,foot,rofi,sway,waybar}
+mkdir -p $HOME/.local/share/backgrounds
+```
+
+Some theme installation or helper scripts need execute permissions. For example:
+
+```
+chmod +x $HOME/.config/waybar/scripts/network-speed.sh
+```
 
 ---
 
@@ -67,3 +86,15 @@ If you are using the Flatpak version of Steam, you can apply scaling like this:
 After applying the override, fully restart Steam.
 
 Adjust the scaling value (2 = 200%) depending on your display resolution and Sway scaling settings.
+
+**Reset the Flatpak-Overrides**
+
+```
+latpak override --user --reset
+```
+
+or
+
+```
+flatpak override --user --reset com.valvesoftware.Steam
+```
