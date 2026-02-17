@@ -20,6 +20,12 @@ This repository contains a collection of themes for the Sway window manager, des
 - Forest-dark-green theme with 4K support: https://github.com/cryinkfly/SwayWM-Themes/tree/main/themes/forest-dark-green/xhdpi
 - Forest-dark-green theme: ...
 
+What you also need:
+
+- [Orchis-Green-Dark](https://www.gnome-look.org/p/1357889)
+- [ArcAurora-cursors](https://www.gnome-look.org/p/1665694)
+- [Colloid-Green-Dark](https://www.gnome-look.org/p/1661983)
+
 ---
 
 ## Installation
