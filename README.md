@@ -19,3 +19,51 @@ This repository contains a collection of themes for the Sway window manager, des
 
 - Forest-dark-green theme with 4K support: https://github.com/cryinkfly/SwayWM-Themes/tree/main/themes/forest-dark-green/xhdpi
 - Forest-dark-green theme: ...
+
+
+---
+
+## Flatpak App Scaling (HiDPI / 4K Support)
+
+When using the forest-dark-green theme on high-resolution displays (e.g. 4K), native Wayland applications usually scale correctly. However, Flatpak apps may require additional configuration to scale properly under Sway.
+
+### 🔧 Fix Flatpak Scaling Issues
+
+Flatpak applications often run in a sandbox and may not automatically inherit your system’s scaling settings. You can fix this by setting environment variables.
+
+**Option 1: Set Global Flatpak Scaling**
+
+```flatpak override --user --env=GDK_SCALE=1.5```
+
+```flatpak override --user --env=QT_SCALE_FACTOR=1.5```
+
+Why 1.5?
+
+- `150%` scaling ensures the `correct` physical `size` of UI elements on 4K displays.
+- `100%` → everything appears too small
+- `200%` → everything appears too large
+- `150%` → closely matches the natural size on ~27" 4K monitors
+
+With 1.5:
+
+- Font sizes remain comfortably readable
+- Icons stay proportional
+- Window dimensions scale appropriately
+
+Especially under `Sway + Wayland`, `1.5` is often the most realistic DPI adjustment when moving from a traditional 1440p setup to 4K.
+
+**Option 2: Per-App Scaling Override**
+
+If only specific apps need scaling, you can override them individually.
+
+🎮 Example: Steam (Flatpak)
+
+If you are using the Flatpak version of Steam, you can apply scaling like this:
+
+```flatpak override --user com.valvesoftware.Steam --env=GDK_SCALE=2```
+
+```flatpak override --user com.valvesoftware.Steam --env=GDK_DPI_SCALE=2```
+
+After applying the override, fully restart Steam.
+
+Adjust the scaling value (2 = 200%) depending on your display resolution and Sway scaling settings.
