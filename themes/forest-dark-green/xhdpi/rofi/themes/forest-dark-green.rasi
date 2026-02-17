@@ -1,0 +1,151 @@
+/*************************************************************
+ * Rofi Theme – Forest Dark Green
+ * Author URL: https://cryinkfly.com
+ * Matching: rgba(43,68,56,0.85) + #223329
+ *************************************************************/
+
+* {
+    foreground:                  #ffffff;
+    normal-foreground:           @foreground;
+    selected-normal-foreground:  #ffffff;
+
+    background:                  #2b4438;
+    normal-background:           #2b4438;
+    alternate-normal-background: #304f42;
+
+    selected-normal-background:  #388e70;
+
+    urgent-foreground:           #ffffff;
+    urgent-background:           #803c3c;
+    selected-urgent-background:  #a94444;
+
+    active-foreground:           #ffffff;
+    active-background:           #2f6f5b;
+
+    bordercolor:                 #223329;
+    separatorcolor:              #3a5a4d;
+
+    spacing:                     2;
+
+    background-color:            transparent;
+    text-color:                  @foreground;
+}
+
+/* === Window === */
+
+window {
+    background-color: @background;
+    border: 1px;
+    border-color: @bordercolor;
+    padding: 5px;
+}
+
+/* === Main Layout === */
+
+mainbox {
+    border: 0;
+    padding: 0;
+}
+
+/* === Message === */
+
+message {
+    border: 1px 0px 0px 0px;
+    border-color: @separatorcolor;
+    padding: 4px;
+}
+
+/* === Input Bar === */
+
+inputbar {
+    spacing: 0;
+    padding: 4px;
+    background-color: @normal-background;
+    children: [ prompt, textbox-prompt-colon, entry ];
+}
+
+prompt {
+    text-color: @foreground;
+}
+
+textbox-prompt-colon {
+    str: ":";
+    margin: 0px 4px 0px 0px;
+    text-color: @foreground;
+}
+
+entry {
+    text-color: @foreground;
+}
+
+/* === List === */
+
+listview {
+    border: 1px 0px 0px 0px;
+    border-color: @separatorcolor;
+    spacing: 0;
+    scrollbar: true;
+    padding: 2px 0px 0px 0px;
+}
+
+/* === Elements === */
+
+element {
+    padding: 6px 8px;
+    border: 0;
+}
+
+element normal.normal {
+    background-color: @normal-background;
+    text-color: @normal-foreground;
+}
+
+element alternate.normal {
+    background-color: @alternate-normal-background;
+    text-color: @normal-foreground;
+}
+
+element selected.normal {
+    background-color: @selected-normal-background;
+    text-color: @selected-normal-foreground;
+}
+
+element normal.urgent {
+    background-color: @urgent-background;
+    text-color: @urgent-foreground;
+}
+
+element selected.urgent {
+    background-color: @selected-urgent-background;
+    text-color: @selected-normal-foreground;
+}
+
+element normal.active {
+    background-color: @active-background;
+    text-color: @active-foreground;
+}
+
+element-icon {
+    size: 28px;
+}
+
+/* === Scrollbar === */
+
+scrollbar {
+    width: 4px;
+    border: 0;
+    handle-width: 8px;
+    padding: 0;
+}
+
+/* === Mode Switcher === */
+
+mode-switcher {
+    border: 1px 0px 0px 0px;
+    border-color: @separatorcolor;
+}
+
+button.selected {
+    background-color: @selected-normal-background;
+    text-color: @selected-normal-foreground;
+}
