@@ -13,9 +13,9 @@ This repository contains a collection of themes for the Sway window manager, des
 <div id="forest-dark-green-screenshots">
 <img src="https://github.com/user-attachments/assets/8ba55de1-db3f-4acb-a82c-8be8c131beb6" width="400px" height="250px">
 <img src="https://github.com/user-attachments/assets/a0a0be0f-2e3a-4728-b389-1dd1350ff2fe" width="400px" height="250px">
-<img src="https://github.com/user-attachments/assets/cbee2797-c352-4dfb-a22f-343bfafbe232" width="400px" height="250px">
 <img src="https://github.com/user-attachments/assets/a96a1101-344d-492d-bd7e-6d2a0233316a" width="400px" height="250px">
- </br></br>
+<img src="https://github.com/user-attachments/assets/ba4f1aa8-feb3-4177-bb6c-6778bb4c2a6f" width="400px" height="250px">
+</br></br>
 </div>
 
 - Chameleon Grove Green theme with 4K support: https://github.com/cryinkfly/SwayWM-Themes/tree/main/themes/chameleon-grove-green/xhdpi
