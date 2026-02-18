@@ -184,7 +184,7 @@ include '$(/usr/libexec/sway/layered-include "/usr/share/sway/config.d/*.conf" "
 font pango:Noto Sans Mono 16
 
 # Cursor theme and size
-seat * xcursor_theme ArcAurora-cursors 28
+seat * xcursor_theme ArcAurora-cursors 38
 
 # -------------------------
 # GTK & Qt High-DPI Scaling
