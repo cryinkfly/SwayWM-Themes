@@ -47,6 +47,26 @@ Some theme installation or helper scripts need execute permissions. For example:
 chmod +x $HOME/.config/waybar/scripts/network-speed.sh
 ```
 
+## Important
+
+> [!NOTE]  
+> These configurations must be adapted to your own system, especially regarding outputs and hardware setup.
+
+For example, in my setup I have two graphics cards installed, which means multiple display outputs are available. One output is disabled because one of the GPUs is used exclusively for KVM guests.
+
+You will likely need to adjust:
+
+- Monitor/output names in the Sway config
+- Waybar modules referencing specific interfaces or outputs
+- Network interface names
+- GPU-specific settings
+
+Make sure to check your output names with:
+
+```
+swaymsg -t get_outputs
+```
+
 ---
 
 ## Flatpak App Scaling (HiDPI / 4K Support)
