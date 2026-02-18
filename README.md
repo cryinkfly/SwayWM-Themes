@@ -11,10 +11,10 @@ This repository contains a collection of themes for the Sway window manager, des
 - **Contents:** Config files, wallpapers, and color settings for Sway bars and terminals.
 
 <div id="forest-dark-green-screenshots">
-<img src="https://github.com/user-attachments/assets/003fb3c5-ba36-42f4-8e3f-a2c78e26fbc3" width="400px" height="250px">
-<img src="https://github.com/user-attachments/assets/869b85d2-1845-4ae2-94a2-73678bf9641c" width="400px" height="250px">
-<img src="https://github.com/user-attachments/assets/bf04fe72-f229-4882-a6b9-42890147a6ff" width="400px" height="250px">
-<img src="https://github.com/user-attachments/assets/9a7c0138-b00d-4a6f-abe2-bf563946bd4d" width="400px" height="250px">
+<img src="https://github.com/user-attachments/assets/8ba55de1-db3f-4acb-a82c-8be8c131beb6" width="400px" height="250px">
+<img src="https://github.com/user-attachments/assets/a0a0be0f-2e3a-4728-b389-1dd1350ff2fe" width="400px" height="250px">
+<img src="https://github.com/user-attachments/assets/cbee2797-c352-4dfb-a22f-343bfafbe232" width="400px" height="250px">
+<img src="https://github.com/user-attachments/assets/5a60a9fd-12d1-48fb-a95d-fb0eb6dead52" width="400px" height="250px">
  </br></br>
 </div>
 
