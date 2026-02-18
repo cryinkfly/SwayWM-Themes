@@ -14,7 +14,7 @@ This repository contains a collection of themes for the Sway window manager, des
 <img src="https://github.com/user-attachments/assets/8ba55de1-db3f-4acb-a82c-8be8c131beb6" width="400px" height="250px">
 <img src="https://github.com/user-attachments/assets/a0a0be0f-2e3a-4728-b389-1dd1350ff2fe" width="400px" height="250px">
 <img src="https://github.com/user-attachments/assets/cbee2797-c352-4dfb-a22f-343bfafbe232" width="400px" height="250px">
-<img src="https://github.com/user-attachments/assets/5a60a9fd-12d1-48fb-a95d-fb0eb6dead52" width="400px" height="250px">
+<img src="https://github.com/user-attachments/assets/a96a1101-344d-492d-bd7e-6d2a0233316a" width="400px" height="250px">
  </br></br>
 </div>
 
