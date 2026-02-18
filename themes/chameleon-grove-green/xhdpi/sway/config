@@ -181,7 +181,7 @@ include '$(/usr/libexec/sway/layered-include "/usr/share/sway/config.d/*.conf" "
 ### Theme & Fonts
 # -------------------------
 # Window title font
-font pango:FiraCode Nerd Font 16
+font pango:Noto Sans Mono 16
 
 # Cursor theme and size
 seat * xcursor_theme ArcAurora-cursors 28
@@ -192,7 +192,7 @@ seat * xcursor_theme ArcAurora-cursors 28
 exec_always {
     export GDK_SCALE=2
     export GDK_DPI_SCALE=0.5
-    export GTK_FONT_NAME="FiraCode Nerd Font 16"
+    export GTK_FONT_NAME="Noto Sans Mono 16"
     gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
     gsettings set org.gnome.desktop.interface gtk-theme 'Orchis-Green-Dark'
     gsettings set org.gnome.desktop.interface icon-theme 'Colloid-Green-Dark'
