@@ -1,3 +1,6 @@
+>[!WARNING]
+>This project has been archived here and will be continued exclusively on [Codeberg](https://codeberg.org/cryinkfly/Linux-Theme-Palette).
+
 # SwayWM-Themes
 
 This repository contains a collection of themes for the Sway window manager, designed to customize and enhance your desktop experience. It also includes configuration options to adjust the scale factor, allowing your themes to look sharp and consistent on displays with different DPI settings.
